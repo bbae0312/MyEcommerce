@@ -11,6 +11,7 @@ import { Checkbox } from "@mui/material";
 import Checkout from "./scenes/checkout/Checkout.jsx";
 import Confirmation from "./scenes/checkout/Confirmation.jsx";
 import Navbar from "./scenes/global/Navbar.jsx";
+import CartMenu from "./scenes/global/CartMenu.jsx";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -31,6 +32,7 @@ function App() {
           <Route path="checkout" element={<Checkout />} />
           <Route path="checkout/success" element={<Confirmation />} />
         </Routes>
+        <CartMenu/>
       </BrowserRouter>
     </div>;
 }
