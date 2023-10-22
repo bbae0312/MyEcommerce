@@ -21,21 +21,39 @@ Before you begin, ensure you have the following installed:
 
 ## Getting Started
 
-### Backend
+## Backend (Strapi)
 
-1. Navigate to the `server/` directory.
-2. Install dependencies:
-npm install
-3. Start the Strapi server:
-npm run develop
+### Overview
+The backend is powered by Strapi, a headless CMS providing the necessary API endpoints for product management, user authentication, order processing, and other essential E-commerce operations. Strapi offers a visually intuitive admin panel to manage the content and monitor the operations of the E-commerce platform.
 
-This will launch the Strapi admin panel on [http://localhost:1337/admin](http://localhost:1337/admin).
+### Setup & Running
 
-### Frontend
+1. **Navigate to the Backend Directory**:
+   ```bash
+   cd server/
+2. **Install Dependencies**:
+   ```npm install
+3. **Start the Strapi Server**:
+   ```npm run develop
 
-1. Navigate to the `client/` directory.
-2. Install dependencies:
+Once the server starts successfully, the Strapi admin panel will be accessible at http://localhost:1337/admin.
 
+### Frontend (React)
+
+**Overview**  
+The frontend is built using React, a popular JavaScript library known for its efficiency and flexibility. The interface provides users with a dynamic and responsive platform to browse products, manage their cart, and complete their purchases. Additionally, it interacts seamlessly with the Strapi backend to fetch products, manage user sessions, and process orders.
+
+### Setup & Running
+
+1. **Navigate to the Backend Directory**:
+   ```bash
+   cd client/
+2. **Install Dependencies**:
+   ```npm install
+3. **Start the Strapi Server**:
+   ```npm start
+
+The application will then be accessible at http://localhost:3000, and it will automatically open in your default browser.
 
 ## Contributing
 
