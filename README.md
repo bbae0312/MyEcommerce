@@ -32,10 +32,11 @@ The backend is powered by Strapi, a headless CMS providing the necessary API end
    ```bash
    cd server/
 2. **Install Dependencies**:
-   ```npm install
-3. **Start the Strapi Server**:
-   ```npm run develop
+   ### `npm install`
 
+3. **Start the Strapi Server**:
+   ### `npm run develop`
+   
 Once the server starts successfully, the Strapi admin panel will be accessible at http://localhost:1337/admin.
 
 ### Frontend (React)
@@ -49,9 +50,9 @@ The frontend is built using React, a popular JavaScript library known for its ef
    ```bash
    cd client/
 2. **Install Dependencies**:
-   ```npm install
+   ### `npm install`
 3. **Start the Strapi Server**:
-   ```npm start
+   ### `npm start`
 
 The application will then be accessible at http://localhost:3000, and it will automatically open in your default browser.
 
